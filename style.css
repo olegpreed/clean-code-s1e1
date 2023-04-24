@@ -17,12 +17,15 @@ body {
   font-family: fantasy, cursive;
 }
 .todo__item--add {
-	margin: 20px 0 16px 0;
+  margin: 20px 0 16px 0;
 }
 
 @media (max-width:768px) {
-.banner__img { text-align: center;
-}
+
+  .banner__img {
+    text-align: center;
+  }
+
 }
 .todo {
   display: block;
