@@ -40,17 +40,17 @@ body {
 }
 .todo__list,
 .todo__list--completed {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .todo__item,
 .todo__item--edit-mode,
 .todo__subheading {
-  list-style:none;
+  list-style: none;
 }
 .item__input,
 .item__del-btn {
-  outline:none;
+  outline: none;
 }
 .item__action,
 .item__del-btn  {
@@ -141,14 +141,14 @@ body {
 /* Edit Task */
 .todo__list--completed .item__input,
 .todo__list .item__input {
-  display:none;
+  display: none;
 }
 
 .todo__item--edit-mode .item__input {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .todo__item--edit-mode .item__task {
-  display:none;
+  display: none;
 }
