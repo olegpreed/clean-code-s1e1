@@ -47,7 +47,6 @@ body {
   padding: 0px;
 }
 .todo__item,
-.todo__item--edit-mode,
 .todo__subheading {
   list-style: none;
 }
@@ -100,8 +99,7 @@ body {
 }
 
 /* Task list */
-.todo__item,
-.todo__item--edit-mode {
+.todo__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -147,11 +145,11 @@ body {
   display: none;
 }
 
-.todo__item--edit-mode .item__input {
+.edit-mode .item__input {
   display: inline-block;
   width: 224px;
 }
 
-.todo__item--edit-mode .item__task {
+.edit-mode .item__task {
   display: none;
 }
